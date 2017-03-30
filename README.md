@@ -19,7 +19,7 @@ an arrangement of shapes closely fitted together, especially of polygons in a re
 
 <img src="https://github.com/anama118118/BezierCurve/blob/master/Media/InterpolationVSApproximation.png" width="320" />
 
-## Geometric Contruction Of by De Casteljau
+## Geometric Construction Of by De Casteljau
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/d/db/B%C3%A9zier_3_big.gif" width="320" />
 
@@ -27,12 +27,14 @@ The t in the formula is between 0 to 1
 The t in the formula gives us the corresponding ratios and hence the points on the Bezier Curve.
 
 ## Possible Application
-A. Create custom images on UIVIews
+A. Create custom images on UIViews
 B. Implement in Animations 
     1. For animating a path with Sprite Kit, regular animations
     2. For expanding and shrinking
     3. For outlining the shape of the polygon
     
+
+## Resources
 
 (Source 1) https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-837-computer-graphics-fall-2012/lecture-notes/MIT6_837F12_Lec01.pdf
 
