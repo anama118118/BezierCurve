@@ -12,7 +12,12 @@ A Bezier Curve is obtained by defining a polygon.
 ## Tessellation
 Definition: The process or art of tessellating a surface, or the state of being tessellated.
 an arrangement of shapes closely fitted together, especially of polygons in a repeated pattern without gaps or overlapping.
-//TODO:Add 3 pictures
+
+<img src="https://github.com/anama118118/BezierCurve/blob/master/Media/TessellationBeforeAddingPoints.png" width="320" />
+
+<img src="https://github.com/anama118118/BezierCurve/blob/master/Media/TessellationAfterAddingPoints.png" width="320" />
+
+<img src="https://github.com/anama118118/BezierCurve/blob/master/Media/InterpolationVSApproximation.png" width="320" />
 
 ## Geometric Contruction Of by De Casteljau
 
