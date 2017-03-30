@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A710BB2D1E8AE38800302001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A710BB2C1E8AE38800302001 /* AppDelegate.swift */; };
+		A710BB2F1E8AE38800302001 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A710BB2E1E8AE38800302001 /* ViewController.swift */; };
+		A710BB321E8AE38800302001 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A710BB301E8AE38800302001 /* Main.storyboard */; };
+		A710BB341E8AE38800302001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A710BB331E8AE38800302001 /* Assets.xcassets */; };
+		A710BB371E8AE38800302001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A710BB351E8AE38800302001 /* LaunchScreen.storyboard */; };
+		A710BB421E8AE38800302001 /* BezierCurveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A710BB411E8AE38800302001 /* BezierCurveTests.swift */; };
+		A710BB4D1E8AE6EA00302001 /* CoolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A710BB4C1E8AE6EA00302001 /* CoolView.swift */; };
+		A710BB4F1E8AE81F00302001 /* CoolButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A710BB4E1E8AE81F00302001 /* CoolButtonView.swift */; };
+		A7782E9F1E8AF670004DAB7E /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7782E9E1E8AF670004DAB7E /* CounterView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A710BB3E1E8AE38800302001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A710BB211E8AE38700302001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A710BB281E8AE38700302001;
+			remoteInfo = BezierCurve;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A710BB291E8AE38800302001 /* BezierCurve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BezierCurve.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A710BB2C1E8AE38800302001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A710BB2E1E8AE38800302001 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A710BB311E8AE38800302001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A710BB331E8AE38800302001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A710BB361E8AE38800302001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A710BB381E8AE38800302001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A710BB3D1E8AE38800302001 /* BezierCurveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BezierCurveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A710BB411E8AE38800302001 /* BezierCurveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierCurveTests.swift; sourceTree = "<group>"; };
+		A710BB431E8AE38800302001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A710BB4C1E8AE6EA00302001 /* CoolView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoolView.swift; path = Views/CoolView.swift; sourceTree = "<group>"; };
+		A710BB4E1E8AE81F00302001 /* CoolButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoolButtonView.swift; path = Views/CoolButtonView.swift; sourceTree = "<group>"; };
+		A7782E9E1E8AF670004DAB7E /* CounterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CounterView.swift; path = Views/CounterView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A710BB261E8AE38700302001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A710BB3A1E8AE38800302001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A710BB201E8AE38700302001 = {
+			isa = PBXGroup;
+			children = (
+				A710BB2B1E8AE38800302001 /* BezierCurve */,
+				A710BB401E8AE38800302001 /* BezierCurveTests */,
+				A710BB2A1E8AE38800302001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A710BB2A1E8AE38800302001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A710BB291E8AE38800302001 /* BezierCurve.app */,
+				A710BB3D1E8AE38800302001 /* BezierCurveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A710BB2B1E8AE38800302001 /* BezierCurve */ = {
+			isa = PBXGroup;
+			children = (
+				A710BB2C1E8AE38800302001 /* AppDelegate.swift */,
+				A710BB2E1E8AE38800302001 /* ViewController.swift */,
+				A710BB4C1E8AE6EA00302001 /* CoolView.swift */,
+				A710BB4E1E8AE81F00302001 /* CoolButtonView.swift */,
+				A7782E9E1E8AF670004DAB7E /* CounterView.swift */,
+				A710BB301E8AE38800302001 /* Main.storyboard */,
+				A710BB331E8AE38800302001 /* Assets.xcassets */,
+				A710BB351E8AE38800302001 /* LaunchScreen.storyboard */,
+				A710BB381E8AE38800302001 /* Info.plist */,
+			);
+			path = BezierCurve;
+			sourceTree = "<group>";
+		};
+		A710BB401E8AE38800302001 /* BezierCurveTests */ = {
+			isa = PBXGroup;
+			children = (
+				A710BB411E8AE38800302001 /* BezierCurveTests.swift */,
+				A710BB431E8AE38800302001 /* Info.plist */,
+			);
+			path = BezierCurveTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A710BB281E8AE38700302001 /* BezierCurve */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A710BB461E8AE38800302001 /* Build configuration list for PBXNativeTarget "BezierCurve" */;
+			buildPhases = (
+				A710BB251E8AE38700302001 /* Sources */,
+				A710BB261E8AE38700302001 /* Frameworks */,
+				A710BB271E8AE38700302001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BezierCurve;
+			productName = BezierCurve;
+			productReference = A710BB291E8AE38800302001 /* BezierCurve.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A710BB3C1E8AE38800302001 /* BezierCurveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A710BB491E8AE38800302001 /* Build configuration list for PBXNativeTarget "BezierCurveTests" */;
+			buildPhases = (
+				A710BB391E8AE38800302001 /* Sources */,
+				A710BB3A1E8AE38800302001 /* Frameworks */,
+				A710BB3B1E8AE38800302001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A710BB3F1E8AE38800302001 /* PBXTargetDependency */,
+			);
+			name = BezierCurveTests;
+			productName = BezierCurveTests;
+			productReference = A710BB3D1E8AE38800302001 /* BezierCurveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A710BB211E8AE38700302001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = C4Q;
+				TargetAttributes = {
+					A710BB281E8AE38700302001 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					A710BB3C1E8AE38800302001 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A710BB281E8AE38700302001;
+					};
+				};
+			};
+			buildConfigurationList = A710BB241E8AE38700302001 /* Build configuration list for PBXProject "BezierCurve" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A710BB201E8AE38700302001;
+			productRefGroup = A710BB2A1E8AE38800302001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A710BB281E8AE38700302001 /* BezierCurve */,
+				A710BB3C1E8AE38800302001 /* BezierCurveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A710BB271E8AE38700302001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A710BB371E8AE38800302001 /* LaunchScreen.storyboard in Resources */,
+				A710BB341E8AE38800302001 /* Assets.xcassets in Resources */,
+				A710BB321E8AE38800302001 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A710BB3B1E8AE38800302001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A710BB251E8AE38700302001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A710BB2F1E8AE38800302001 /* ViewController.swift in Sources */,
+				A710BB4D1E8AE6EA00302001 /* CoolView.swift in Sources */,
+				A710BB2D1E8AE38800302001 /* AppDelegate.swift in Sources */,
+				A710BB4F1E8AE81F00302001 /* CoolButtonView.swift in Sources */,
+				A7782E9F1E8AF670004DAB7E /* CounterView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A710BB391E8AE38800302001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A710BB421E8AE38800302001 /* BezierCurveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A710BB3F1E8AE38800302001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A710BB281E8AE38700302001 /* BezierCurve */;
+			targetProxy = A710BB3E1E8AE38800302001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A710BB301E8AE38800302001 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A710BB311E8AE38800302001 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A710BB351E8AE38800302001 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A710BB361E8AE38800302001 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A710BB441E8AE38800302001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A710BB451E8AE38800302001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A710BB471E8AE38800302001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BezierCurve/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.anama.BezierCurve;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A710BB481E8AE38800302001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BezierCurve/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.anama.BezierCurve;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A710BB4A1E8AE38800302001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BezierCurveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.anama.BezierCurveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BezierCurve.app/BezierCurve";
+			};
+			name = Debug;
+		};
+		A710BB4B1E8AE38800302001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BezierCurveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.anama.BezierCurveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BezierCurve.app/BezierCurve";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A710BB241E8AE38700302001 /* Build configuration list for PBXProject "BezierCurve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A710BB441E8AE38800302001 /* Debug */,
+				A710BB451E8AE38800302001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A710BB461E8AE38800302001 /* Build configuration list for PBXNativeTarget "BezierCurve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A710BB471E8AE38800302001 /* Debug */,
+				A710BB481E8AE38800302001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A710BB491E8AE38800302001 /* Build configuration list for PBXNativeTarget "BezierCurveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A710BB4A1E8AE38800302001 /* Debug */,
+				A710BB4B1E8AE38800302001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A710BB211E8AE38700302001 /* Project object */;
+}

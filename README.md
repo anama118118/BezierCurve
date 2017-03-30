@@ -15,8 +15,9 @@ an arrangement of shapes closely fitted together, especially of polygons in a re
 //TODO:Add 3 pictures
 
 ## Geometric Contruction Of by De Casteljau
-//TODO:Add giphy
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/d/db/B%C3%A9zier_3_big.gif" width="320" />
+
 The t in the formula is between 0 to 1
 The t in the formula gives us the corresponding ratios and hence the points on the Bezier Curve.
 
@@ -29,4 +30,5 @@ B. Implement in Animations
     
 
 (Source 1) https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-837-computer-graphics-fall-2012/lecture-notes/MIT6_837F12_Lec01.pdf
+
 (Source 2) http://web.iitd.ac.in/~hegde/cad/lecture/L13_Beziercurve.pdf
