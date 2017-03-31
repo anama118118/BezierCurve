@@ -7,6 +7,7 @@ A Bezier Curve is obtained by defining a polygon.
 1. Magic
 2. These are smart weights that describe the influence of each control point
 3. It is a linear combination of basis of polynomials
+  
   The opposite perspective: control points are the weights of polynomials!
 
 ## Tessellation
