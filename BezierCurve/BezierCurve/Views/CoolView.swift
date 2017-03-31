@@ -12,10 +12,10 @@ import UIKit
 //http://www.victoriakirst.com/beziertool/
 //How to make a star with Bezier Star
 //http://stackoverflow.com/questions/38343458/how-to-make-star-shape-with-bezier-path-in-ios
-@IBDesignable class CoolView: UIView {
+@IBDesignable class CoolStarView: UIView {
     
     @IBInspectable var fillColor: UIColor = UIColor.gray
-    @IBInspectable var numberOfPoints: Int =  5
+    @IBInspectable var points: Int =  5
     
     override func draw(_ rect: CGRect) {
         let starPath = starPathInRect(rect: rect)
@@ -29,7 +29,7 @@ import UIKit
         let path = UIBezierPath()
         let starExtrusion:CGFloat = 30.0
         let center = CGPoint(x: rect.width / 2.0, y: rect.height / 2.0)
-        let pointsOnStar = numberOfPoints
+        let pointsOnStar = points
         
         var angle:CGFloat = -CGFloat(M_PI / 2.0)
         let angleIncrement = CGFloat(M_PI * 2.0 / Double(pointsOnStar))
