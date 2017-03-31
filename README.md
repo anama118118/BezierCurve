@@ -7,6 +7,7 @@ A Bezier Curve is obtained by defining a polygon.
 1. Magic
 2. These are smart weights that describe the influence of each control point
 3. It is a linear combination of basis of polynomials
+  
   The opposite perspective: control points are the weights of polynomials!
 
 ## Tessellation
@@ -24,13 +25,18 @@ an arrangement of shapes closely fitted together, especially of polygons in a re
 <img src="https://upload.wikimedia.org/wikipedia/commons/d/db/B%C3%A9zier_3_big.gif" width="320" />
 
 The t in the formula is between 0 to 1
+
 The t in the formula gives us the corresponding ratios and hence the points on the Bezier Curve.
 
 ## Possible Application
 A. Create custom images on UIViews
+
 B. Implement in Animations 
+
     1. For animating a path with Sprite Kit, regular animations
+    
     2. For expanding and shrinking
+    
     3. For outlining the shape of the polygon
     
 
