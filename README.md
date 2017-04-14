@@ -49,11 +49,11 @@ B. Implement in Animations
 
 ## Layer Trees Reflect Different Aspects of the Animation State
 
-Apple Documentation (Source 3)
+<a href="https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CoreAnimation_guide/CoreAnimationBasics/CoreAnimationBasics.html">Apple Documentation Core Animation Basics</a> (Source 4) (Source 3)
 
 ## Different Layers
 
-Different layers (Source 4) 
+<a href="https://www.raywenderlich.com/90488/calayer-in-ios-with-swift-10-examples">Different layers</a> (Source 4) 
 
 ## Resources
 
