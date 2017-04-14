@@ -16,6 +16,7 @@
 		A710BB4D1E8AE6EA00302001 /* CoolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A710BB4C1E8AE6EA00302001 /* CoolView.swift */; };
 		A710BB4F1E8AE81F00302001 /* CoolButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A710BB4E1E8AE81F00302001 /* CoolButtonView.swift */; };
 		A7782E9F1E8AF670004DAB7E /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7782E9E1E8AF670004DAB7E /* CounterView.swift */; };
+		A7853EA91E9764010055CB55 /* EquilateralTriangleInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7853EA81E9764010055CB55 /* EquilateralTriangleInView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		A710BB4C1E8AE6EA00302001 /* CoolView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoolView.swift; path = Views/CoolView.swift; sourceTree = "<group>"; };
 		A710BB4E1E8AE81F00302001 /* CoolButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoolButtonView.swift; path = Views/CoolButtonView.swift; sourceTree = "<group>"; };
 		A7782E9E1E8AF670004DAB7E /* CounterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CounterView.swift; path = Views/CounterView.swift; sourceTree = "<group>"; };
+		A7853EA81E9764010055CB55 /* EquilateralTriangleInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EquilateralTriangleInView.swift; path = Views/EquilateralTriangleInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				A710BB2C1E8AE38800302001 /* AppDelegate.swift */,
 				A710BB2E1E8AE38800302001 /* ViewController.swift */,
 				A710BB4C1E8AE6EA00302001 /* CoolView.swift */,
+				A7853EA81E9764010055CB55 /* EquilateralTriangleInView.swift */,
 				A710BB4E1E8AE81F00302001 /* CoolButtonView.swift */,
 				A7782E9E1E8AF670004DAB7E /* CounterView.swift */,
 				A710BB301E8AE38800302001 /* Main.storyboard */,
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A710BB2F1E8AE38800302001 /* ViewController.swift in Sources */,
+				A7853EA91E9764010055CB55 /* EquilateralTriangleInView.swift in Sources */,
 				A710BB4D1E8AE6EA00302001 /* CoolView.swift in Sources */,
 				A710BB2D1E8AE38800302001 /* AppDelegate.swift in Sources */,
 				A710BB4F1E8AE81F00302001 /* CoolButtonView.swift in Sources */,

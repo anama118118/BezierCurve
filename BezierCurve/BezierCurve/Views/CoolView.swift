@@ -22,6 +22,7 @@ import UIKit
         UIColor.gray.setStroke()
         starPath.stroke()
         fillColor.setFill()
+        
         starPath.fill()
     }
     

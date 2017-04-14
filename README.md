@@ -39,9 +39,28 @@ B. Implement in Animations
     
     3. For outlining the shape of the polygon
     
+# Core animations
+
+## Hierarcies
+1. view hierarchy
+2. layer tree
+3. presentation tree
+4. render tree
+
+## Layer Trees Reflect Different Aspects of the Animation State
+
+Apple Documentation (Source 3)
+
+## Different Layers
+
+Different layers (Source 4) 
 
 ## Resources
 
 (Source 1) https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-837-computer-graphics-fall-2012/lecture-notes/MIT6_837F12_Lec01.pdf
 
 (Source 2) http://web.iitd.ac.in/~hegde/cad/lecture/L13_Beziercurve.pdf
+
+(Source 3) https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CoreAnimation_guide/CoreAnimationBasics/CoreAnimationBasics.html
+
+(Source 4) https://www.raywenderlich.com/90488/calayer-in-ios-with-swift-10-examples
