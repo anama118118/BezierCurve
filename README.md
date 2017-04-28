@@ -50,23 +50,28 @@ B. Implement in Animations
  - layer usually captures the content your app provides and caches it in a bitmap, which is sometimes referred to as the backing store. 
 
 ## Advantage: 
-    Manipulating the bit map in hardware yeilds much faster aimations than could be done in software.
-<img src="https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CoreAnimation_guide/Art/basics_layer_rendering_2x.png" width="320" />
-    Traditional view-based drawing techniques uses CPU on the main thread
-    Core Animation avoid this expense by manipulating the cased bitmap in hardware to achieve the same or similar effects
+Manipulating the bit map in hardware yeilds much faster aimations than could be done in software.
+
+<img src="https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CoreAnimation_guide/Art/basics_layer_rendering_2x.png" width="640" />
+
+Traditional view-based drawing techniques uses CPU on the main thread
+Core Animation avoid this expense by manipulating the cased bitmap in hardware to achieve the same or similar effects
 
 ## 3 Ways to provide the content for that bitmap
-    - Assign an image object directly to the layer object's contents property
-    - Assign a delegate object to the layer and let the delegate draw the layer's content
-    - Define a layer subclass and override one of its drawing methods to provide the layer contents yourself.
+- Assign an image object directly to the layer object's contents property
+- Assign a delegate object to the layer and let the delegate draw the layer's content
+- Define a layer subclass and override one of its drawing methods to provide the layer contents yourself.
 
 ## Layer-Based Animations
-    Examples of animations you can perform on layers
-    <img src="https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CoreAnimation_guide/Art/basics_animation_types_2x.png" width="320" />
-    During the course of an animation, Core Animation does all of the frame-by-frame drawing for you in hardware. All you have to do is specify the start and end points of the animation and let Core Animation do the rest. You can also specify custom timing information and animation parameters as needed; however, Core Animation provides suitable default values if you do not
+Examples of animations you can perform on layers
 
-##Anchor Points Affect Geometric Manipulations
-    <img src="https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CoreAnimation_guide/Art/layer_coords_anchorpoint_position_2x.png" width="320" />
+<img src="https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CoreAnimation_guide/Art/basics_animation_types_2x.png" width="640" />
+
+During the course of an animation, Core Animation does all of the frame-by-frame drawing for you in hardware. All you have to do is specify the start and end points of the animation and let Core Animation do the rest. You can also specify custom timing information and animation parameters as needed; however, Core Animation provides suitable default values if you do not
+
+## Anchor Points Affect Geometric Manipulations
+
+<img src="https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CoreAnimation_guide/Art/layer_coords_anchorpoint_position_2x.png" width="640" />
 
 ## Hierarcies
 1. view hierarchy
